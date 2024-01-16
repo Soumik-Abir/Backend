@@ -13,13 +13,13 @@ export { asyncHandler }
 
 
 
-// What happening in behind in higer order function...
+// **What happening in behind in higer order function...
 
 // const asyncHandler = () => {}
 // const asyncHandler = (func) => () => {}
 // const asyncHandler = (func) => async () => {}
 
-// (try catch wraper function) we will use this function in other
+// **(try catch wraper function) we will use this function in other
 // parts of code to avoid rewrite same thing
 
 // const asyncHandler = (func) => async (req, res, next) => {
